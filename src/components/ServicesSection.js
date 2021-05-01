@@ -73,6 +73,11 @@ const Services = styled(About)`
     width: 70%;
     padding: 2rem 0rem 4rem 0rem;
   }
+  div{
+    img{
+      max-width:100%;
+    }
+  }
 `;
 const Cards = styled.div`
   display: flex;
